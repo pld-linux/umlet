@@ -1,4 +1,5 @@
 Summary:	Free UML Tool for Fast UML Diagrams
+Summary(pl):	Wolnodostêpne narzêdzie do szybkiego tworzenia diagramów UML
 Name:		umlet
 Version:	6
 Release:	1
@@ -13,20 +14,34 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-UMLet is a UML tool aimed at providing a fast way of creating UML diagrams.
-UML elements are modified using text input instead of pop-up dialogs.
-Elements can be modified and used as templates. This way, users can easily
-tailor UMLet to their modeling needs. UMLet supports a variety of UML diagram types:
-class diagrams, use case diagrams, sequence diagrams, state diagrams, deployment diagrams,
-activity diagrams, etc. Furthermore, UMLet allows users to create their own custom UML elements.
-An element's look can be modified at run-time by changing a few lines of Java code.
-UMLet then compiles the new element's code on the fly. Without leaving UMLet,
-users can thus create and add new element types to their diagrams.
+UMLet is a UML tool aimed at providing a fast way of creating UML
+diagrams. UML elements are modified using text input instead of pop-up
+dialogs. Elements can be modified and used as templates. This way,
+users can easily tailor UMLet to their modeling needs. UMLet supports
+a variety of UML diagram types: class diagrams, use case diagrams,
+sequence diagrams, state diagrams, deployment diagrams, activity
+diagrams, etc. Furthermore, UMLet allows users to create their own
+custom UML elements. An element's look can be modified at run-time by
+changing a few lines of Java code. UMLet then compiles the new
+element's code on the fly. Without leaving UMLet, users can thus
+create and add new element types to their diagrams.
+
+%description -l pl
+UMLet to narzêdzie UML ukierunkowane na szybkie tworzenie diagramów
+UML. Elementy UML s± modyfikowane poprzez wprowadzanie tekstu zamiast
+wyskakuj±cych okien dialogowych. Elementy mo¿na modyfikowaæ i u¿ywaæ
+jako szablony. W ten sposób u¿ytkownicy mog± ³atwo dostosowaæ UMLeta
+do swoich potrzeb modelowania. UMLet obs³uguje wiele ró¿nych rodzajów
+diagramów UML: diagramy klas, diagramy przypadków u¿ycia, diagramy
+sekwencji, diagramy stanów, diagramy rozwoju, diagramy aktywno¶ci itp.
+Co wiêcej, UMLet pozwala u¿ytkownikom na tworzenie w³asnych elementów
+UML. Wygl±d elementu mo¿na modyfikowaæ w czasie pracy zmieniaj±c kilka
+linii kodu w Javie. Po tym UMLet kompiluje kod nowego elementu w
+locie. W ten sposób u¿ytkownicy mog± bez opuszczania UMLeta tworzyæ i
+dodawaæ nowe rodzaje elementów do swoich diagramów.
 
 %prep
 %setup -q -n com.%{name}.plugin
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT
