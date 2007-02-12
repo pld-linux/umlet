@@ -1,5 +1,5 @@
 Summary:	Free UML Tool for Fast UML Diagrams
-Summary(pl.UTF-8):   Wolnodostępne narzędzie do szybkiego tworzenia diagramów UML
+Summary(pl.UTF-8):	Wolnodostępne narzędzie do szybkiego tworzenia diagramów UML
 Name:		umlet
 Version:	6
 Release:	1
