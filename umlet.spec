@@ -1,5 +1,5 @@
 Summary:	Free UML Tool for Fast UML Diagrams
-Summary(pl):	Wolnodostêpne narzêdzie do szybkiego tworzenia diagramów UML
+Summary(pl.UTF-8):   WolnodostÄ™pne narzÄ™dzie do szybkiego tworzenia diagramÃ³w UML
 Name:		umlet
 Version:	6
 Release:	1
@@ -26,19 +26,19 @@ changing a few lines of Java code. UMLet then compiles the new
 element's code on the fly. Without leaving UMLet, users can thus
 create and add new element types to their diagrams.
 
-%description -l pl
-UMLet to narzêdzie UML ukierunkowane na szybkie tworzenie diagramów
-UML. Elementy UML s± modyfikowane poprzez wprowadzanie tekstu zamiast
-wyskakuj±cych okien dialogowych. Elementy mo¿na modyfikowaæ i u¿ywaæ
-jako szablony. W ten sposób u¿ytkownicy mog± ³atwo dostosowaæ UMLeta
-do swoich potrzeb modelowania. UMLet obs³uguje wiele ró¿nych rodzajów
-diagramów UML: diagramy klas, diagramy przypadków u¿ycia, diagramy
-sekwencji, diagramy stanów, diagramy rozwoju, diagramy aktywno¶ci itp.
-Co wiêcej, UMLet pozwala u¿ytkownikom na tworzenie w³asnych elementów
-UML. Wygl±d elementu mo¿na modyfikowaæ w czasie pracy zmieniaj±c kilka
+%description -l pl.UTF-8
+UMLet to narzÄ™dzie UML ukierunkowane na szybkie tworzenie diagramÃ³w
+UML. Elementy UML sÄ… modyfikowane poprzez wprowadzanie tekstu zamiast
+wyskakujÄ…cych okien dialogowych. Elementy moÅ¼na modyfikowaÄ‡ i uÅ¼ywaÄ‡
+jako szablony. W ten sposÃ³b uÅ¼ytkownicy mogÄ… Å‚atwo dostosowaÄ‡ UMLeta
+do swoich potrzeb modelowania. UMLet obsÅ‚uguje wiele rÃ³Å¼nych rodzajÃ³w
+diagramÃ³w UML: diagramy klas, diagramy przypadkÃ³w uÅ¼ycia, diagramy
+sekwencji, diagramy stanÃ³w, diagramy rozwoju, diagramy aktywnoÅ›ci itp.
+Co wiÄ™cej, UMLet pozwala uÅ¼ytkownikom na tworzenie wÅ‚asnych elementÃ³w
+UML. WyglÄ…d elementu moÅ¼na modyfikowaÄ‡ w czasie pracy zmieniajÄ…c kilka
 linii kodu w Javie. Po tym UMLet kompiluje kod nowego elementu w
-locie. W ten sposób u¿ytkownicy mog± bez opuszczania UMLeta tworzyæ i
-dodawaæ nowe rodzaje elementów do swoich diagramów.
+locie. W ten sposÃ³b uÅ¼ytkownicy mogÄ… bez opuszczania UMLeta tworzyÄ‡ i
+dodawaÄ‡ nowe rodzaje elementÃ³w do swoich diagramÃ³w.
 
 %prep
 %setup -q -n com.%{name}.plugin
