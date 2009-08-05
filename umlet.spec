@@ -1,12 +1,12 @@
 Summary:	Free UML Tool for Fast UML Diagrams
 Summary(pl.UTF-8):	Wolnodostępne narzędzie do szybkiego tworzenia diagramów UML
 Name:		umlet
-Version:	6
+Version:	9.5
 Release:	1
 License:	GPL
 Group:		X11/Development/Tools
-Source0:	http://www.umlet.com/umlet_6/%{name}%{version}.zip
-# Source0-md5:	8e97ebae438ee2dd8130df20d50db166
+Source0:	http://www.umlet.com/umlet_9_5/%{name}_9_5.zip
+# Source0-md5:	43deebca81c9b38e8bd08af72b183124
 URL:		http://www.umlet.com/
 BuildRequires:	unzip
 Requires:	jre >= 1.4
@@ -41,7 +41,7 @@ locie. W ten sposób użytkownicy mogą bez opuszczania UMLeta tworzyć i
 dodawać nowe rodzaje elementów do swoich diagramów.
 
 %prep
-%setup -q -n com.%{name}.plugin
+%setup -q -n UMLet\ 9.5
 
 %install
 rm -rf $RPM_BUILD_ROOT
