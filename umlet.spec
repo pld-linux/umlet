@@ -1,13 +1,16 @@
+#
+# TODO: unpackaged files
+#
 %define		file_ver	%(echo %{version} | tr . _)
 Summary:	Free UML Tool for Fast UML Diagrams
 Summary(pl.UTF-8):	Wolnodostępne narzędzie do szybkiego tworzenia diagramów UML
 Name:		umlet
-Version:	10.4
-Release:	1
+Version:	11.0
+Release:	0.1
 License:	GPL
 Group:		X11/Development/Tools
 Source0:	http://www.umlet.com/umlet_%{file_ver}/%{name}_%{file_ver}.zip
-# Source0-md5:	41ae9eac7700f5502fb0c6404dbcd5da
+# Source0-md5:	40a17e2a01495cf51eb74d62ea5c370a
 URL:		http://www.umlet.com/
 BuildRequires:	unzip
 Requires:	jre >= 1.4
@@ -42,7 +45,7 @@ locie. W ten sposób użytkownicy mogą bez opuszczania UMLeta tworzyć i
 dodawać nowe rodzaje elementów do swoich diagramów.
 
 %prep
-%setup -q -n UMLet
+%setup -q -n Umlet
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -56,7 +59,7 @@ java -jar umlet.jar
 cd \$cwd
 EOF
 
-cp -r * $RPM_BUILD_ROOT%{_datadir}/%{name}
+cp -a * $RPM_BUILD_ROOT%{_datadir}/%{name}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -66,7 +69,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %dir %{_datadir}/%{name}
 %{_datadir}/%{name}/custom_elements
-%{_datadir}/%{name}/icons
+#%%{_datadir}/%{name}/icons
 # lib contains jars.
 %{_datadir}/%{name}/lib
 %{_datadir}/%{name}/palettes
