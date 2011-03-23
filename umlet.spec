@@ -5,12 +5,12 @@
 Summary:	Free UML Tool for Fast UML Diagrams
 Summary(pl.UTF-8):	Wolnodostępne narzędzie do szybkiego tworzenia diagramów UML
 Name:		umlet
-Version:	11.0
+Version:	11.1
 Release:	0.1
 License:	GPL
 Group:		X11/Development/Tools
 Source0:	http://www.umlet.com/umlet_%{file_ver}/%{name}_%{file_ver}.zip
-# Source0-md5:	40a17e2a01495cf51eb74d62ea5c370a
+# Source0-md5:	355cb6d714d712a61f35c883e73d2b9a
 URL:		http://www.umlet.com/
 BuildRequires:	unzip
 Requires:	jre >= 1.4
